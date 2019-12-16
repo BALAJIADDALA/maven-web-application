@@ -35,7 +35,8 @@ node{
  {
   sh  "${mavenHome}/bin/mvn clean package"
  }
-
+ 
+/*
  
  stage('Testing')
    {
@@ -46,7 +47,7 @@ node{
        bat 'mvn test'   
       }
    }
- /*
+ 
 
  stage('SonarQubeReport')
  {
@@ -57,7 +58,7 @@ node{
  {
   sh  "${mavenHome}/bin/mvn deploy"
  }
- /*
+ 
  stage('DeplotoTomcat'){
      
      sh "cp $WORKSPACE/target/*.war /opt/apache-tomcat-9.0.16/webapps/"
