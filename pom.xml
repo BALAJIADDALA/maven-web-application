@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.106.208:8081/repository/balaji-ri/</url>
+	      <url>http://13.233.106.221:8081//repository/balaji-ri/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.106.208:8081/repository/sss/</url>
+	      <url>http://13.233.106.221:8081/repository/sss/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
